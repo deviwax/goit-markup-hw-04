@@ -122,7 +122,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 188px 0 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
      rgba(40, 47, 66, 0.7)),
-     url('../images/people-office01.jpg');
+     url(../images/people-office01.jpg);
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
@@ -247,6 +247,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .contacts-icon{
     width: 40px;
     height: 40px;
+    transition: backgraund-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-icon-item{
     width: 100%;
@@ -259,7 +260,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-icon-item:hover,
 :focus{
-background-color: #404BBF;
+background-color: #404bbf;
 }
 .icon-item{
     fill: #F4F4FD;
